@@ -13,6 +13,9 @@ from callbacks.page_callbacks import render_page_content
 # Dash initialization
 app = Dash(external_stylesheets=[dbc.themes.FLATLY], suppress_callback_exceptions=True)
 
+# 서버 객체 설정
+server = app.server
+
 # 네비게이션바 생성
 sidebar = create_sidebar()
 content = html.Div(id="page-content", style=CONTENT_STYLE)
