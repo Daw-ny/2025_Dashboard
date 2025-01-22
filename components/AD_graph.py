@@ -67,7 +67,7 @@ def effective_value_top_5(df_normal, df_anomaly, col_chooser):
     ffig.update_layout(title=f'k-means로 추론한 test set의 {col_chooser}평균값의 차이',
                     xaxis_title='sampleNum',
                     yaxis_title=f'means of {col_chooser}',
-                    legend=dict(orientation="h"),
+                    legend=dict(orientation="h", x=0.5, y=-0.2, xanchor="center", yanchor="top"),
                     showlegend=True,
                     hovermode='x unified',
                     template='simple_white'

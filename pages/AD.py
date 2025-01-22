@@ -8,6 +8,7 @@ import os
 #######################################################
 # file imports
 from components import AD_graph, AD_values, AD_table
+from style.pagestyle import CONTAINER_FIX
 
 #######################################################
 # load data
@@ -24,7 +25,7 @@ layout = dbc.Container([
     # 대시보드 제목
     html.Br(), # 띄어쓰기
     dbc.Row([
-        html.H3(children='효율적인 One-Class 이상치 탐지: 화학공정 데이터를 활용한 시각화')
+        html.H3(children='효율적인 One-Class 이상치 탐지: 화학공정 데이터를 활용한 시각화', style={"textAlign": "center"})
     ]),
 
     dbc.Row([
@@ -107,7 +108,8 @@ layout = dbc.Container([
         ], width=8),
     ]),
 
-])
+], style=CONTAINER_FIX
+)
 
 #######################################################
 # 콜백 그래프 구성 함수

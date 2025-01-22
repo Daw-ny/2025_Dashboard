@@ -5,20 +5,18 @@ from dash import html
 
 #######################################################
 # file imports
-from style.mainstyle import SIDEBAR_STYLE, WRITE_STYLE  # 스타일 파일에서 임포트
 
 #######################################################
 # 사이드 바 구성하기
 def create_sidebar():
-    return html.Div(
+    return dbc.Offcanvas(
         [
-            html.H2("Menu", className="display-4"),
             dbc.Nav(
                 [
-                    
+                    html.H2("Menu", className="display-4"),
                     html.Hr(),
                     html.P(
-                        "페이지는 Python의 Dash로 구성했습니다.", className="explain",
+                        "프로젝트에 대한 설명과 제작의도가 담겨있습니다.", className="explain",
                     ),
                     dbc.NavLink("Home", href="/", active="exact"),
                     html.Br(),
@@ -33,5 +31,6 @@ def create_sidebar():
                 pills=True,
             ),
         ],
-        style=SIDEBAR_STYLE,
+        id="offcanvas",
+        is_open=False,  # 초기 상태는 닫힘
     )

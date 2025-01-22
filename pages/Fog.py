@@ -4,11 +4,11 @@ import dash_bootstrap_components as dbc
 from dash import html, dcc, callback, Output, Input
 import pandas as pd
 import os
-import pickle
 
 #######################################################
 # file imports
 from components import FOG_graph, FOG_values, FOG_table
+from style.pagestyle import CONTAINER_FIX
 
 #######################################################
 # load data
@@ -32,7 +32,7 @@ layout = dbc.Container([
     # 대시보드 제목
     html.Br(), # 띄어쓰기
     dbc.Row([
-        html.H3(children='주기변수와 Weighted Catboost 를 활용한 안개 발생 진단')
+        html.H3(children='주기변수와 Weighted Catboost 를 활용한 안개 발생 진단', style={"textAlign": "center"})
     ]),
 
     dbc.Row([
@@ -140,7 +140,7 @@ layout = dbc.Container([
 
     ]),
 
-])
+], style=CONTAINER_FIX)
 
 #######################################################
 # 콜백 그래프 구성 함수

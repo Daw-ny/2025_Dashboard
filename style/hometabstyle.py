@@ -1,0 +1,1 @@
+HOMETAB = {"backgroundColor": "#18bc9c", "color": "#ecf0f1"}

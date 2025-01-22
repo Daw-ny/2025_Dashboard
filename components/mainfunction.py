@@ -3,14 +3,14 @@
 from dash import html
 
 #######################################################
-# file loads
+# file imports
 from pages import home_page, AD, Fog
 
 #######################################################
-# 페이지 렌더링
+
 def render_page_content(pathname):
     if pathname == "/":
-        return home_page.home_view()
+        return home_page.layout
     elif pathname == "/Anomaly-Detection":
         return AD.layout
     elif pathname == "/Fog-prediction":
