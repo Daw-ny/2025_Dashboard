@@ -83,7 +83,8 @@ layout = dbc.Container([
             ),
             dcc.Dropdown(FOG_values.derive_value,
                         value = '이슬점 온도',
-                        id = 'derived_val'
+                        id = 'derived_val', 
+                        searchable=False, clearable=False,
                     ),
         ]),
 
@@ -131,7 +132,8 @@ layout = dbc.Container([
 
             dcc.Dropdown(FOG_values.shap_names,
                         value = '통합 확인',
-                        id = 'shap_type'
+                        id = 'shap_type', 
+                        searchable=False, clearable=False,
                     ),
 
             dcc.Graph(figure={}, id='shap_plot'),

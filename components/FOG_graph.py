@@ -1,15 +1,11 @@
 #######################################################
 # plotly
-from plotly.subplots import make_subplots
 import plotly.express as px
 import plotly.graph_objects as go
 
 # model
 import warnings
 warnings.filterwarnings('ignore')
-
-import pandas as pd
-import numpy as np
 
 #######################################################
 # 안개 건수 그래프 그리기
@@ -30,7 +26,7 @@ def fog_cnt_line_plot(dataframe, time_type):
                         yaxis_title='안개 발생 횟수 (회)',
                         legend=dict(orientation="h", x=0.5, y=-0.2, xanchor="center", yanchor="top"),
                         showlegend=True,
-                        hovermode='x unified',
+                        # hovermode='x unified',
                         margin=dict(
                             b=100  # 아래쪽 마진 추가
                         ),
@@ -57,7 +53,7 @@ def fog_size_line_plot(dataframe, time_type):
                         yaxis_title='평균 안개 지속시간 (minutes)',
                         legend=dict(orientation="h", x=0.5, y=-0.2, xanchor="center", yanchor="top"),
                         showlegend=True,
-                        hovermode='x unified',
+                        # hovermode='x unified',
                         margin=dict(
                             b=100  # 아래쪽 마진 추가
                         ),
@@ -102,7 +98,7 @@ def derive_value_continuous_plot(dataframe, columns):
                         yaxis_title=f'{columns}',
                         legend=dict(orientation="h", x=0.5, y=-0.2, xanchor="center", yanchor="top"),
                         showlegend=True,
-                        hovermode='x unified',
+                        # hovermode='x unified',
                         margin=dict(
                             b=100  # 아래쪽 마진 추가
                         ),

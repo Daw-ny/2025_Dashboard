@@ -1,14 +1,14 @@
 #######################################################
 # packages
 import dash_bootstrap_components as dbc
-from dash import html, dcc, callback, Output, Input
+from dash import html, callback, Output, Input
 import os
 
 #######################################################
 # file imports
 from style.pagestyle import CONTAINER_FIX
 from layout import home_Tab
-from components import Tab1_explain, Tab2_AD, Tab3_FOG 
+from components import Tab1_explain, Tab2_AD, Tab3_FOG, Tab4_Manitto, Tab5_Liver
 
 #######################################################
 # load directory
@@ -137,3 +137,9 @@ def tab_content(active_tab):
     
     elif active_tab == "tab-3":
         return Tab3_FOG.contents
+    
+    elif active_tab == "tab-4":
+        return Tab4_Manitto.contents
+    
+    elif active_tab == "tab-5":
+        return Tab5_Liver.contents

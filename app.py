@@ -7,7 +7,6 @@ import dash
 #######################################################
 # file imports
 from layout.navigation import create_sidebar
-from pages import home_page, AD, Fog
 from style.navistyle import HAMBURGER_STYLE
 from components.mainfunction import render_page_content
 

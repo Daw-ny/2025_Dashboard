@@ -1,0 +1,301 @@
+Entity,Year,death_per_population
+Mongolia,2019,128.77
+Japan,2019,77.65
+Thailand,2019,63.18
+South Korea,2019,55.92
+Tonga,2019,49.99
+Monaco,2019,43.47
+China,2019,43.25
+Cook Islands,2019,37.25
+Guinea,2019,37.09
+Taiwan,2019,36.47
+Mongolia,2018,124.05
+Japan,2018,74.66
+Thailand,2018,59.9
+South Korea,2018,53.28
+Tonga,2018,47.97
+China,2018,42.09
+Monaco,2018,41.6
+Guinea,2018,36.48
+Taiwan,2018,35.35
+Cook Islands,2018,35.21
+Mongolia,2017,119.31
+Japan,2017,71.78
+Thailand,2017,56.76
+South Korea,2017,50.76
+Tonga,2017,45.95
+China,2017,41.04
+Monaco,2017,39.66
+Guinea,2017,35.82
+Taiwan,2017,34.29
+Cook Islands,2017,33.21
+Mongolia,2016,114.56
+Japan,2016,69.05
+Thailand,2016,53.76
+South Korea,2016,48.34
+Tonga,2016,43.93
+China,2016,40.02
+Monaco,2016,37.76
+Guinea,2016,35.14
+Taiwan,2016,33.29
+Cook Islands,2016,31.2
+Mongolia,2015,109.75
+Japan,2015,66.38
+Thailand,2015,50.82
+South Korea,2015,46.19
+Tonga,2015,41.92
+China,2015,39.0
+Monaco,2015,36.49
+Guinea,2015,34.41
+Taiwan,2015,32.34
+Cook Islands,2015,29.27
+Mongolia,2014,104.92
+Japan,2014,63.72
+Thailand,2014,48.03
+South Korea,2014,44.08
+Tonga,2014,39.96
+China,2014,38.06
+Monaco,2014,35.22
+Guinea,2014,33.6
+Taiwan,2014,31.45
+Cook Islands,2014,27.98
+Mongolia,2013,99.93
+Japan,2013,61.05
+Thailand,2013,45.31
+South Korea,2013,41.96
+Tonga,2013,38.02
+China,2013,37.17
+Monaco,2013,33.93
+Guinea,2013,32.74
+Taiwan,2013,30.56
+Cook Islands,2013,26.72
+Mongolia,2012,94.73
+Japan,2012,58.37
+Thailand,2012,42.65
+South Korea,2012,39.83
+China,2012,36.36
+Tonga,2012,36.12
+Monaco,2012,32.63
+Guinea,2012,31.83
+Taiwan,2012,29.68
+Cook Islands,2012,25.5
+Mongolia,2011,89.39
+Japan,2011,55.66
+Thailand,2011,40.0
+South Korea,2011,37.67
+China,2011,35.54
+Tonga,2011,34.41
+Monaco,2011,31.28
+Guinea,2011,30.9
+Taiwan,2011,28.75
+Cook Islands,2011,25.14
+Mongolia,2010,83.69
+Japan,2010,52.96
+Thailand,2010,37.4
+South Korea,2010,35.34
+China,2010,34.73
+Tonga,2010,32.73
+Guinea,2010,29.94
+Monaco,2010,29.89
+Taiwan,2010,27.69
+Cook Islands,2010,24.82
+Mongolia,2009,78.02
+Japan,2009,50.26
+Thailand,2009,34.92
+China,2009,33.91
+South Korea,2009,32.95
+Tonga,2009,31.01
+Guinea,2009,28.93
+Monaco,2009,28.43
+Taiwan,2009,26.58
+Cook Islands,2009,24.47
+Mongolia,2008,72.42
+Japan,2008,47.54
+China,2008,33.06
+Thailand,2008,32.57
+South Korea,2008,30.56
+Tonga,2008,29.3
+Guinea,2008,27.88
+Monaco,2008,26.49
+Taiwan,2008,25.36
+Cook Islands,2008,24.08
+Mongolia,2007,66.96
+Japan,2007,44.78
+China,2007,32.18
+Thailand,2007,30.31
+South Korea,2007,28.17
+Tonga,2007,27.71
+Guinea,2007,26.76
+Monaco,2007,24.11
+Taiwan,2007,24.0
+Cook Islands,2007,23.63
+Mongolia,2006,61.63
+Japan,2006,41.99
+China,2006,31.33
+Thailand,2006,28.12
+Tonga,2006,26.15
+South Korea,2006,25.78
+Guinea,2006,25.56
+Taiwan,2006,22.44
+Cook Islands,2006,22.42
+Monaco,2006,21.81
+Mongolia,2005,56.49
+Japan,2005,39.18
+China,2005,30.45
+Thailand,2005,26.02
+Tonga,2005,24.58
+Guinea,2005,24.25
+South Korea,2005,23.4
+Cook Islands,2005,21.15
+Taiwan,2005,20.75
+Monaco,2005,19.57
+Mongolia,2004,51.64
+Japan,2004,36.36
+China,2004,29.53
+Thailand,2004,24.04
+Tonga,2004,23.01
+Guinea,2004,22.91
+South Korea,2004,21.02
+Cook Islands,2004,19.87
+Taiwan,2004,19.01
+Monaco,2004,17.35
+Mongolia,2003,47.05
+Japan,2003,33.53
+China,2003,28.52
+Thailand,2003,22.15
+Guinea,2003,21.58
+Tonga,2003,21.33
+South Korea,2003,18.61
+Cook Islands,2003,18.59
+Taiwan,2003,17.33
+Monaco,2003,15.45
+Mongolia,2002,42.73
+Japan,2002,30.71
+China,2002,27.32
+Thailand,2002,20.38
+Guinea,2002,20.23
+Tonga,2002,19.71
+Cook Islands,2002,17.33
+South Korea,2002,16.18
+Taiwan,2002,15.78
+Monaco,2002,13.57
+Mongolia,2001,38.69
+Japan,2001,27.9
+China,2001,25.85
+Thailand,2001,18.66
+Guinea,2001,18.57
+Tonga,2001,18.07
+Cook Islands,2001,15.4
+Taiwan,2001,14.51
+South Korea,2001,13.8
+Monaco,2001,11.7
+Mongolia,2000,34.91
+Japan,2000,25.08
+China,2000,24.06
+Guinea,2000,17.09
+Thailand,2000,17.01
+Tonga,2000,16.42
+Cook Islands,2000,13.58
+Taiwan,2000,13.05
+South Korea,2000,11.5
+Monaco,2000,9.86
+Mongolia,1999,31.47
+Japan,1999,22.23
+China,1999,22.0
+Guinea,1999,15.65
+Thailand,1999,15.32
+Tonga,1999,14.75
+Cook Islands,1999,11.91
+Taiwan,1999,11.6
+South Korea,1999,9.36
+Monaco,1999,8.35
+Mongolia,1998,28.2
+China,1998,19.79
+Japan,1998,19.4
+Guinea,1998,14.18
+Thailand,1998,13.66
+Tonga,1998,13.17
+Cook Islands,1998,10.38
+Taiwan,1998,10.23
+South Korea,1998,7.53
+Monaco,1998,7.17
+Mongolia,1997,25.03
+China,1997,17.54
+Japan,1997,16.64
+Guinea,1997,12.57
+Thailand,1997,12.11
+Tonga,1997,11.67
+Cook Islands,1997,8.98
+Taiwan,1997,8.94
+South Korea,1997,6.08
+Monaco,1997,5.97
+Mongolia,1996,21.92
+China,1996,15.25
+Japan,1996,14.03
+Guinea,1996,11.09
+Thailand,1996,10.6
+Tonga,1996,10.09
+Cook Islands,1996,7.88
+Taiwan,1996,7.81
+Monaco,1996,5.06
+South Korea,1996,5.02
+Mongolia,1995,18.81
+China,1995,12.95
+Japan,1995,11.54
+Guinea,1995,9.62
+Thailand,1995,9.03
+Tonga,1995,8.61
+Cook Islands,1995,6.78
+Taiwan,1995,6.6
+South Korea,1995,4.23
+Monaco,1995,4.14
+Mongolia,1994,15.73
+China,1994,10.67
+Japan,1994,9.2
+Guinea,1994,8.08
+Thailand,1994,7.48
+Tonga,1994,7.13
+Cook Islands,1994,5.68
+Taiwan,1994,5.42
+South Korea,1994,3.57
+Monaco,1994,3.21
+Mongolia,1993,12.67
+China,1993,8.42
+Japan,1993,7.1
+Guinea,1993,6.57
+Thailand,1993,5.94
+Tonga,1993,5.63
+Cook Islands,1993,4.57
+Taiwan,1993,4.26
+South Korea,1993,2.89
+Monaco,1993,2.59
+Mongolia,1992,9.58
+China,1992,6.23
+Japan,1992,5.15
+Guinea,1992,4.97
+Thailand,1992,4.43
+Tonga,1992,4.24
+Cook Islands,1992,3.45
+Taiwan,1992,3.13
+South Korea,1992,2.21
+Monaco,1992,1.96
+Mongolia,1991,6.45
+China,1991,4.1
+Guinea,1991,3.37
+Japan,1991,3.33
+Thailand,1991,2.92
+Tonga,1991,2.83
+Cook Islands,1991,2.32
+Taiwan,1991,2.03
+South Korea,1991,1.51
+Monaco,1991,1.31
+Mongolia,1990,3.24
+China,1990,2.03
+Guinea,1990,1.73
+Japan,1990,1.62
+Thailand,1990,1.44
+Tonga,1990,1.42
+Cook Islands,1990,1.17
+Taiwan,1990,0.99
+South Korea,1990,0.78
+Monaco,1990,0.66

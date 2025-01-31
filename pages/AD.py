@@ -42,14 +42,16 @@ layout = dbc.Container([
                 dbc.Col([
                     dcc.Dropdown(colnames,
                         value = 'xmeas_1',
-                        id = 'corr_var1'
+                        id = 'corr_var1', 
+                        searchable=False, clearable=False,
                     ),
                 ]),
                 
                 dbc.Col([
                     dcc.Dropdown(colnames,
                         value = 'xmeas_2',
-                        id = 'corr_var2'
+                        id = 'corr_var2', 
+                        searchable=False, clearable=False,
                     ),
                 ]),
 
@@ -74,7 +76,8 @@ layout = dbc.Container([
             dbc.Row([
                 dcc.Dropdown(['xmv_5', 'xmeas_16', 'xmeas_7', 'xmeas_13', 'xmv_2'],
                     value = 'xmv_5',
-                    id = 'top5_variables'
+                    id = 'top5_variables', 
+                    searchable=False, clearable=False,
                 ),
             ]),
 
