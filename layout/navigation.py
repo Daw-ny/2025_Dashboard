@@ -27,6 +27,7 @@ def create_sidebar():
                     dbc.NavLink("간 관련 질병 요인 분석", href="/Liver-EDA", active="exact"),
                     dbc.NavLink("화학 공정 이상탐지", href="/Anomaly-Detection", active="exact"),
                     dbc.NavLink("안개 상태 다중분류", href="/Fog-prediction", active="exact"),
+                    dbc.NavLink("난임 부부 임신예측", href="/Pregnent-prediction", active="exact"),
                     html.Br(),
                     html.Hr(),
                     html.P(

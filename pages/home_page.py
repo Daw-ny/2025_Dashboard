@@ -8,7 +8,7 @@ import os
 # file imports
 from style.pagestyle import CONTAINER_FIX
 from layout import home_Tab
-from components import Tab1_explain, Tab2_AD, Tab3_FOG, Tab4_Manitto, Tab5_Liver
+from components import Tab1_explain, Tab2_AD, Tab3_FOG, Tab4_Manitto, Tab5_Liver, Tab6_Baby
 
 #######################################################
 # load directory
@@ -143,3 +143,6 @@ def tab_content(active_tab):
     
     elif active_tab == "tab-5":
         return Tab5_Liver.contents
+    
+    elif active_tab == "tab-6":
+        return Tab6_Baby.contents

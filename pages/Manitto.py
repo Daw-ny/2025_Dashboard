@@ -104,9 +104,9 @@ layout = dbc.Container([
                     ]),
 
                     dbc.Row([
-                        html.Div(id = "upload_feedback"),
+                        html.Div(id = "manitto_upload_feedback"),
                         # 데이터를 저장할 Store
-                        dcc.Store(id='stored_data'),
+                        dcc.Store(id='manitto_stored_data'),
                     ]),
 
                     dbc.Row([
@@ -275,9 +275,9 @@ layout = dbc.Container([
 
 # 데이터 업로드
 @callback(
-    [Output("upload_feedback", "children"),
-     Output("upload_feedback", "style"),
-     Output("stored_data", "data")],
+    [Output("manitto_upload_feedback", "children"),
+     Output("manitto_upload_feedback", "style"),
+     Output("manitto_stored_data", "data")],
     [Input("upload_data", "contents")],
     [State("upload_data", "filename")]
 )
@@ -288,9 +288,9 @@ def upload_csvfile(contents, filename):
 # 업로드 된 데이터 확인
 @callback(
     Output("output_area", "children"),
-    Input("stored_data", "data")
+    Input("manitto_stored_data", "data")
 )
-def display_stored_data(data):
+def display_manitto_stored_data(data):
     
     return manittoFunction.retrieve_from_store(data)
 
@@ -319,7 +319,7 @@ def select_design(host, price, design):
     Input('title_input', 'value'),
     Input('island_yn', 'value'),
     Input("design_samples", "value"),
-    Input("stored_data", "data"),
+    Input("manitto_stored_data", "data"),
 )
 def send_email_yesno(send, sendEmail, password, host, price, titles, buttons, design, data):
     

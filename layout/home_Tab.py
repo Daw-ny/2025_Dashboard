@@ -16,6 +16,7 @@ card = dbc.Card(
                     dbc.Tab(label="FOG", tab_id="tab-3", active_label_style=HOMETAB),
                     dbc.Tab(label="Manitto", tab_id="tab-4", active_label_style=HOMETAB),
                     dbc.Tab(label="Liver", tab_id="tab-5", active_label_style=HOMETAB),
+                    dbc.Tab(label="Pregnant", tab_id="tab-6", active_label_style=HOMETAB),
                 ],
                 id="card-tabs",
                 active_tab="tab-1",

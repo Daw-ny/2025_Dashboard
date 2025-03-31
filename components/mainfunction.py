@@ -4,7 +4,7 @@ from dash import html
 
 #######################################################
 # file imports
-from pages import home_page, AD, Fog, Liver, Manitto
+from pages import home_page, AD, Fog, Liver, Manitto, Baby
 
 #######################################################
 
@@ -19,6 +19,8 @@ def render_page_content(pathname):
         return Liver.layout
     elif pathname == "/Manitto":
         return Manitto.layout
+    elif pathname == "/Pregnent-prediction":
+        return Baby.layout
     # If the user tries to reach a different page, return a 404 message
     return html.Div(
         [
