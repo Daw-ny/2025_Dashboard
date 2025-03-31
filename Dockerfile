@@ -4,6 +4,11 @@ FROM python:3.9-slim
 # 작업 디렉토리 설정
 WORKDIR /app
 
+# libgomp1
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
+RUN apt-get -y install curl
+RUN apt-get install libgomp1
+
 # Poetry에서 변환한 requirements.txt 복사
 COPY requirements.txt .
 
