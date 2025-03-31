@@ -14,10 +14,12 @@ import gc
 
 import matplotlib
 import matplotlib.font_manager as fm
+
 # font_location = '/usr/share/fonts/truetype/nanum/NanumGothicOTF.ttf'
 font_location = './assets/NanumSquareB.ttf' # For Windows
+
 font_name = fm.FontProperties(fname=font_location).get_name()
-matplotlib.rc('font', family=[font_name, 'DejaVu Sans'])
+matplotlib.rc('font', family=['NanumGothic', 'DejaVu Sans'])
 
 plt.rcParams['axes.unicode_minus'] = False
 
@@ -83,7 +85,7 @@ def di_prob_cal(index, data):
 
     di_dt, _ = DI(row)
 
-    dir = './Models/'
+    dir = './models/'
     
     # XGBoost, LightGBM, CatBoost, Ensemble Modeling
     with open(dir + "xgb_best_model_DI.pkl", "rb") as f:
@@ -126,7 +128,7 @@ def ivf_prob_cal(index, data):
     dt = pd.DataFrame(data)
     row = dt.loc[[index], :]
 
-    dir = './Models/'
+    dir = './models/'
     
     if row['특시유_AH'].values:
 

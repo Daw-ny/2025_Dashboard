@@ -197,7 +197,7 @@ def piechart_patient_ivf(index, data):
     row = dt.loc[[index], :]
 
     # 그래프 그릴 데이터 불러오기
-    count_data = pd.read_csv('./Data/IVF_시술 당시 나이.csv')
+    count_data = pd.read_csv('./data/IVF_시술 당시 나이.csv')
 
     return make_pie(data = count_data, col = '시술 당시 나이', select_value = row['시술 당시 나이'].values), html.P('환자 나이 파이차트')
 
@@ -221,13 +221,13 @@ def piechart_donate_ivf(index, data):
 
     if row['정자 출처'].values == '기증 제공':
 
-        count_data = pd.read_csv('./Data/ivf_기증자_정자 기증자 나이.csv')
+        count_data = pd.read_csv('./data/IVF_기증자_정자 기증자 나이.csv')
 
         return make_pie(data = count_data, col = '정자 기증자 나이', select_value = row['정자 기증자 나이'].values), html.P('기증자 나이 파이차트')
     
     elif row['정자 출처'].values == '배우자 제공':
 
-        count_data = pd.read_csv('./Data/ivf_배우자_정자 기증자 나이.csv')
+        count_data = pd.read_csv('./data/IVF_배우자_정자 기증자 나이.csv')
 
         return make_pie(data = count_data, col = '정자 기증자 나이', select_value = row['정자 기증자 나이'].values), html.P('배우자 나이 파이차트')
 
@@ -258,7 +258,7 @@ def bar_chart_patient_experience(index, data, value):
     row = dt.loc[[index], :]
 
     # 그래프 그릴 데이터 불러오기
-    count_data = pd.read_csv('./Data/IVF_'+ value +'.csv')
+    count_data = pd.read_csv('./data/IVF_'+ value +'.csv')
 
     return make_bar(data = count_data, col = value, select_value = row[value].values)
 
@@ -279,10 +279,10 @@ def make_shap_graph_by_xgb(index, data):
     # ivf, IVF에 따라 결과 다르게 산출하기
     ivf_dt, _ = IVF(row)
 
-    dir = './Models/'
+    dir = './models/'
     
     # XGBoost, LightGBM, CatBoost, Ensemble Modeling
-    with open(dir + "test_exp_ivf.pkl", "rb") as f:
+    with open(dir + "test_exp_IVF.pkl", "rb") as f:
         xgb_ivf = pickle.load(f)
 
     return make_force(xgb_ivf, ivf_dt)

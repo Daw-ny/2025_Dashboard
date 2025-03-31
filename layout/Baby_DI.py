@@ -195,7 +195,7 @@ def piechart_patient_DI(index, data):
     row = dt.loc[[index], :]
 
     # 그래프 그릴 데이터 불러오기
-    count_data = pd.read_csv('./Data/DI_시술 당시 나이.csv')
+    count_data = pd.read_csv('./data/DI_시술 당시 나이.csv')
 
     return make_pie(data = count_data, col = '시술 당시 나이', select_value = row['시술 당시 나이'].values), html.P('환자 나이 파이차트')
 
@@ -216,7 +216,7 @@ def piechart_donate_DI(index, data):
     row = dt.loc[[index], :]
 
     # 그래프 그릴 데이터 불러오기
-    count_data = pd.read_csv('./Data/DI_정자 기증자 나이.csv')
+    count_data = pd.read_csv('./data/DI_정자 기증자 나이.csv')
 
     return make_pie(data = count_data, col = '정자 기증자 나이', select_value = row['정자 기증자 나이'].values), html.P('기증자 나이 파이차트')
 
@@ -236,7 +236,7 @@ def bar_chart_patient_experience(index, data, value):
     row = dt.loc[[index], :]
 
     # 그래프 그릴 데이터 불러오기
-    count_data = pd.read_csv('./Data/DI_'+ value +'.csv')
+    count_data = pd.read_csv('./data/DI_'+ value +'.csv')
 
     return make_bar(data = count_data, col = value, select_value = row[value].values)
 
@@ -257,7 +257,7 @@ def make_shap_graph_by_xgb(index, data):
     # DI, IVF에 따라 결과 다르게 산출하기
     di_dt, _ = DI(row)
 
-    dir = './Models/'
+    dir = './models/'
     
     # XGBoost, LightGBM, CatBoost, Ensemble Modeling
     with open(dir + "test_exp_DI.pkl", "rb") as f:
