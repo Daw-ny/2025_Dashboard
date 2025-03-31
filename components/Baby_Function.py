@@ -15,7 +15,7 @@ import gc
 import matplotlib
 import matplotlib.font_manager as fm
 # font_location = '/usr/share/fonts/truetype/nanum/NanumGothicOTF.ttf'
-font_location = './Assets/NanumSquareB.ttf' # For Windows
+font_location = './assets/NanumSquareB.ttf' # For Windows
 font_name = fm.FontProperties(fname=font_location).get_name()
 matplotlib.rc('font', family=[font_name, 'DejaVu Sans'])
 
