@@ -16,6 +16,7 @@ pyopenssl = "^25.0.0"
 shap = "^0.47.1"
 lightgbm = "^4.6.0"
 catboost = "^1.2.7"
+xgboost = "<3.0.0"
 
 [build-system]
 requires = ["poetry-core"]
